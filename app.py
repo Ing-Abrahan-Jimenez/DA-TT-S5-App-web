@@ -37,6 +37,6 @@ if start_button:
         st.session_state['df_experiment_results'],
         pd.DataFrame(data=[[st.session_state['experiment_no'],num_of_trails, mean]], columns=['no', 'iterarions', 'mean'])     
     ], axis= 0)
-    st.session_state['df_experiment_results']= \\
+    st.session_state['df_experiment_results'] = \
     st.session_state['df_experiment_results'].reset_index(drop=True)
 st.write(st.session_state['df_experiment_results'])
