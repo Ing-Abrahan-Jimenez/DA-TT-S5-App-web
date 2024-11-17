@@ -3,4 +3,6 @@ Como forma de práctica y entendimiento del funcionamiento de creación de una p
 
 # Herramientas utilizadas: 
 - Python
-  - Streamlit 
+  - Streamlit
+  - Scipy
+  - Pandas
